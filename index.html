@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowFight</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class='mainbar'>
+            <div class="topbar">
+    
+              <div class="player">
+                <div style="background-color: red; height: 10px; width: 100%;border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;"></div>
+                <div class="playerh"id="playerHealth"></div>
+              </div>
+              <div class='timer'id="timer">
+                10
+              </div>
+    
+              <div class="enemy">
+                <div style="background-color: red; height: 10px;border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;"></div>
+                <div class="enemyh" id="enemyHealth"></div>
+              </div>
+    
+            </div>
+    
+            <div class="text" id="displayText" >
+              Tie
+            </div>
+            <canvas></canvas>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="contentbox">
+          <p ><span style="font-weight: bold;
+            text-decoration: underline;"> . Game Instructions . </span> <br><br>
+            Its a 1v1 Mulitplayer game. <br><br>
+            for player 1(left) : movement-keys : W A D , attack-keys : space<br><br>
+            for player 2(right) : movement-keys : ArrowUp, ArrowLeft, ArrowRight , attack-keys : ArrowDown<br></p>
+      </div>
+    </div>
+
+    <script src="control.js"></script>
+    
+</body>
+</html>
