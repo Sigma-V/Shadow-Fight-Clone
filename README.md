@@ -1,4 +1,4 @@
-#Shadow Fight Clone | JS Game
+# Shadow Fight Clone | JS Game
 Project Title: Shadow Fight Clone (or a more specific title if your game has a unique twist)
 
 Author(s):  Varun Bharti
